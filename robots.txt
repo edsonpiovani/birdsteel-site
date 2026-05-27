@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://birdsteel.com.br/sitemap.xml
