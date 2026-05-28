@@ -40,4 +40,4 @@ $schemaExtra = $schemaExtra ?? '';
   <?php include __DIR__ . '/schema-localbusiness.php'; ?>
   <?= $schemaExtra ?>
 </head>
-<body>
+<body<?= !empty($pageClass) ? ' class="' . e($pageClass) . '"' : '' ?>>
