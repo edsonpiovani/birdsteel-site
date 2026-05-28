@@ -1675,3 +1675,182 @@ body.home-page {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   BIRDSTEEL — Home Premium V11
+   Ajuste mobile após print em iPhone: hero mais compacto,
+   CTA sem conflito com WhatsApp e melhor primeira dobra.
+   ========================================================= */
+@media (max-width: 920px) {
+  .header-inner {
+    min-height: 70px;
+  }
+
+  .brand-logo {
+    width: 132px;
+    max-height: 48px;
+  }
+
+  .nav-toggle span {
+    width: 30px;
+    height: 2px;
+    margin: 7px 0;
+  }
+
+  .main-nav {
+    top: 76px;
+  }
+
+  .home-page .hero-home {
+    padding: 46px 0 34px;
+    min-height: auto;
+  }
+
+  .home-page .hero-grid {
+    gap: 28px;
+  }
+
+  .home-page .eyebrow {
+    margin-bottom: 18px;
+    padding-left: 42px;
+    font-size: .72rem;
+    letter-spacing: .13em;
+  }
+
+  .home-page .eyebrow::before {
+    width: 30px;
+  }
+
+  .home-page h1 {
+    max-width: 640px;
+    font-size: clamp(2.45rem, 6.8vw, 3.55rem);
+    line-height: .98;
+    letter-spacing: -.055em;
+    margin-bottom: 20px;
+  }
+
+  .home-page .hero-lead {
+    max-width: 640px;
+    font-size: 1.02rem;
+    line-height: 1.58;
+  }
+
+  .home-page .hero-actions {
+    display: grid;
+    grid-template-columns: minmax(0, 330px);
+    gap: 10px;
+    max-width: 330px;
+    margin-top: 22px;
+  }
+
+  .home-page .hero-actions .btn {
+    width: 100%;
+    min-height: 48px;
+    padding: 14px 18px;
+    white-space: nowrap;
+  }
+
+  .home-page .hero-highlights {
+    max-width: 610px;
+    margin-top: 20px;
+    gap: 8px;
+  }
+
+  .home-page .hero-highlights li {
+    padding: 7px 10px;
+    font-size: .82rem;
+  }
+
+  .home-page .hero-microcopy {
+    max-width: 610px;
+    margin-top: 14px;
+  }
+
+  .home-page .hero-showcase {
+    max-width: 640px;
+    min-height: auto;
+  }
+
+  .home-page .hero-media {
+    height: 320px;
+    border-radius: 24px;
+  }
+
+  .home-page .hero-spec-card,
+  .home-page .hero-spec-card-one,
+  .home-page .hero-spec-card-two {
+    position: static;
+    width: 100%;
+    max-width: none;
+    margin-top: 10px;
+  }
+
+  .home-page .hero-proof-strip {
+    margin-top: 28px;
+    border-radius: 18px;
+  }
+
+  .home-page .hero-proof-strip div {
+    padding: 16px 18px;
+  }
+
+  .home-page .hero-proof-strip strong {
+    font-size: .98rem;
+  }
+
+  .home-page .hero-proof-strip span {
+    font-size: .82rem;
+  }
+
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+    right: 14px;
+    bottom: calc(14px + env(safe-area-inset-bottom));
+  }
+
+  .whatsapp-float svg {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: min(calc(100% - 28px), var(--container));
+  }
+
+  .header-inner {
+    min-height: 66px;
+  }
+
+  .brand-logo {
+    width: 122px;
+  }
+
+  .home-page .hero-home {
+    padding-top: 36px;
+  }
+
+  .home-page h1 {
+    font-size: clamp(2.25rem, 10vw, 2.95rem);
+    line-height: 1;
+  }
+
+  .home-page .hero-lead {
+    font-size: .98rem;
+  }
+
+  .home-page .hero-actions {
+    max-width: 315px;
+    grid-template-columns: minmax(0, 315px);
+  }
+
+  .home-page .hero-media {
+    height: 280px;
+  }
+
+  .home-page .hero-proof-strip {
+    grid-template-columns: 1fr;
+  }
+}
