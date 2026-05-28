@@ -27,7 +27,7 @@ include PROJECT_ROOT . '/includes/header.php';
     <div class="container hero-grid">
       <div class="hero-content">
         <p class="eyebrow">Desde 2011 · Boituva/SP</p>
-        <h1 id="home-title">Metal sob medida para empresas, casas e projetos especiais</h1>
+        <h1 id="home-title">Metal sob medida para empresas, residências e projetos especiais</h1>
         <p class="hero-lead">
           Da infraestrutura técnica ao detalhe arquitetônico: racks, gabinetes, painéis, caixas, totens, grades, soleiras e peças personalizadas em aço, inox e alumínio.
         </p>
@@ -42,6 +42,8 @@ include PROJECT_ROOT . '/includes/header.php';
           <li>Empresarial e residencial</li>
           <li>Aço, inox e alumínio</li>
         </ul>
+
+        <p class="hero-microcopy">Projeto, medidas, material e acabamento avaliados conforme a aplicação real.</p>
       </div>
 
       <div class="hero-showcase" aria-label="Aplicações BIRDSTEEL">
